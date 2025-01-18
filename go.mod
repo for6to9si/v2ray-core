@@ -57,6 +57,7 @@ require (
 	github.com/bufbuild/protocompile v0.14.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
+	github.com/coder/websocket v1.8.12 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
@@ -94,4 +95,10 @@ require (
 	golang.org/x/tools v0.22.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241015192408-796eee8c2d53 // indirect
 	nhooyr.io/websocket v1.8.6 // indirect
+)
+
+replace (
+	github.com/txthinking/x => /data/v2ray-core/x-main // indirect
+	gvisor.dev/gvisor => /data/v2ray-core/gvisor-release-20231023.0
+	nhooyr.io/websocket => /data/v2ray-core/websocket-1.8.12
 )
